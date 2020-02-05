@@ -90,7 +90,10 @@ Plots are saved in the “data” folder, especially in Task 1, if “show_plots
 
 ## Plots and diagrams
 
-![](images/dist.png)
+![](images/dist1.png)
+![](images/dist2.png)
+![](images/dist3.png)
 ![](images/features.png)
 ![](images/cotrain.png)
+![](images/cotrain_plot.png)
 
