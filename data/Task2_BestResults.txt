@@ -1,0 +1,79 @@
+WORD2VEC
+
+               precision    recall  f1-score   support
+
+           0       1.00      0.94      0.97        54
+           1       0.81      0.81      0.81        62
+           2       0.84      0.96      0.90        45
+           3       0.79      0.75      0.77        64
+
+   micro avg       0.85      0.85      0.85       225
+   macro avg       0.86      0.86      0.86       225
+weighted avg       0.85      0.85      0.85
+
+GLOVE
+
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        54
+           1       0.84      0.85      0.85        62
+           2       0.86      0.96      0.91        45
+           3       0.83      0.75      0.79        64
+
+    accuracy                           0.88       225
+   macro avg       0.88      0.89      0.89       225
+weighted avg       0.88      0.88      0.88       225
+
+BIOWORDVEC
+
+               precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00        54
+           1       0.83      0.87      0.85        62
+           2       0.93      0.93      0.93        45
+           3       0.85      0.81      0.83        64
+
+   micro avg       0.90      0.90      0.90       225
+   macro avg       0.90      0.90      0.90       225
+weighted avg       0.90      0.90      0.90       225
+
+
+POS
+
+               precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        54
+           1       0.77      0.71      0.74        62
+           2       0.82      0.73      0.78        45
+           3       0.67      0.77      0.72        64
+
+   micro avg       0.80      0.80      0.80       225
+   macro avg       0.81      0.80      0.81       225
+weighted avg       0.80      0.80      0.80       225
+
+
+TRIPLES
+
+               precision    recall  f1-score   support
+
+           0       0.96      0.87      0.91        54
+           1       0.74      0.65      0.69        62
+           2       0.83      0.78      0.80        45
+           3       0.61      0.77      0.68        64
+
+    accuracy                           0.76       225
+   macro avg       0.79      0.76      0.77       225
+weighted avg       0.78      0.76      0.76       225
+
+
+TRIPLES*
+               precision    recall  f1-score   support
+
+           0       0.98      1.00      0.99        54
+           1       0.77      0.71      0.74        62
+           2       0.82      0.73      0.78        45
+           3       0.67      0.77      0.72        64
+
+   micro avg       0.80      0.80      0.80       225
+   macro avg       0.81      0.80      0.81       225
+weighted avg       0.80      0.80      0.80       225
