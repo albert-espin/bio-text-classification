@@ -86,3 +86,11 @@ if False:
 The CNN architecture (that gave the best results), is used by default, because its layers (from Embeddings to Dense with 4-unit Softmax) are defined in the function “build_model_fixed”, called while training. Other architectures (GRU, LSTM, CNN-GRU, CNN-LSTM) can be found under “if” and ”elif” blocks of the “build_model”, which is not explicitly called.
 
 Plots are saved in the “data” folder, especially in Task 1, if “show_plots” is assigned the “True” value. In Task 2, validation accuracy evolution plots are saved.The best results of previous runs, comprised by classification reports with per-class and global precision, recall and F1 metrics, can be found in “Task1_BestResults.txt” and “Task2_BestResults.txt”, but are better structured and synthesized in the report.
+
+
+## Plots and diagrams
+
+![](images/dist.png)
+![](images/features.png)
+![](images/cotrain.png)
+
