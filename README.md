@@ -41,13 +41,13 @@ The project code file is "main.py". It can be run in terminal ("python main.py",
 ## Configuring the experiments
 By default, Task 2 is executed. We can change the task to solve by changing the following boolean variable:
 
-```
+```python
 task1 = False
 ```
 
 By default, the CNN model with Word2Vec embeddings is used. Other features can be used by placing the “True” value in the desired option, and “False” in the rest (or “False” in all to use Word2Vec):
 
-```
+```python
 use_glove = False
 use_biowordvec = False
 combine_embeddings = False
@@ -73,13 +73,13 @@ port 9000 -timeout 15000”.
 
 In order for embeddings to work properly, they need to be regenerated when switching from Task 1 to Task 2, or vice versa, because the embeddings are either built/fine-tuned in the original data only or additionally on Quora questions to. To do that, we need to temporarily replace the “if” statements that check for the existence of embedding matrices to make them false, and go to the “else” (rebuilding the matrix), for instance, for BioWordVec:
 
-```
+```python
 if os.path.isfile(bio_matrix_path):
 ```
 
 Change to the following line to force matrix rebuilding:
 
-```
+```python
 if False:
 ```
 
